@@ -1,14 +1,14 @@
-const args = [...arguments];
 function min(){
-    if (args == NaN)
-        return afficher("Veuillez entrer des nombres");
+    const args = [...arguments];
+    if (args.length == 0)
+        return NaN;
     else{
         let mintmp = args[0];
         for(let i in args){
-            if (mintmp < args[i])
+            if (mintmp > args[i])
                 mintmp = args[i];
         }
-    return mintmp;
+        return mintmp;
     }
 }
 
