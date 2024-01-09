@@ -39,9 +39,14 @@ function moyenne(){
     }
 }
 
-console.log(min(5, 3, -8, 1, 25, 12));
-console.log(min());
-console.log(max(5, 3, -8, 1, 25, 12));
-console.log(max());
-console.log(moyenne(5, 3, -8, 1, 25, 12));
-console.log(moyenne ());
+let stats = 0;
+stats.min() = min();
+stats.max() = max();
+stats.moyenne() = moyenne();
+
+console.log(stats.min(5, 3, -8, 1, 25, 12));
+console.log(stats.min());
+console.log(stats.max(5, 3, -8, 1, 25, 12));
+console.log(stats.max());
+console.log(stats.moyenne(5, 3, -8, 1, 25, 12));
+console.log(stats.moyenne());
